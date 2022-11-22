@@ -1,0 +1,208 @@
+/* Elements generals */
+:root {
+    --marron: #D4A373;
+    --verde: #CCD5AE;
+    --verde-flojo: #E9EDC9;
+    --marron-flojo: #FAEDCD;
+    --beige: #FEFAE0;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #080808;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 1);
+}
+
+p,
+li {
+    color: #080808;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Títol */
+
+.titulo {
+    background: repeating-linear-gradient(45deg, var(--marron-flojo), var(--marron-flojo) 9px, var(--marron) 9px, var(--marron) 45px);
+    height: 100vh;
+    opacity: 0.9;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo h1 {
+    font-size: 72px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Índex */
+
+.indice {
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.columna1 {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.columna2 {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.columna3 {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--beige);
+}
+
+.indice button {
+    background: #080808;
+    border-radius: 6px;
+    border: 1px solid #080808;
+    box-shadow: 4px 6px 0 0 var(--beige);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    max-height: 60px;
+    min-height: 60px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    vertical-align: middle;
+}
+
+.indice h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Primer exercici */
+
+.paragrafs {
+    height: 50vh;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: var(--beige);
+}
+
+.paragrafs h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.containers {
+    align-items: center;
+    background-color: var(--verde);
+    box-shadow: 4px 6px 0 0 #080808;
+    column-gap: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.containers p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.p1 {
+    color: #282A3A;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p2 {
+    color: #735F32;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p3 {
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Segon exercici */
+
+.paraules {
+    background-color: var(--marron);
+    height: 50vh;
+    width: 100%;
+}
+
+.paraules h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.espai {
+    align-items: center;
+    display: flex;
+    height: 212px;
+    justify-content: space-around;
+}
+
+.espai p {
+    font-size: 50px;
+}
+
+/* Tercer exercici */
+.llista {
+    background-color: var(--verde);
+    height: 50vh;
+    position: relative;
+    width: 100%;
+}
+
+.llista h2 {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.check-list ul {
+    font-size: 22px;
+    list-style: none;
+    text-align: center;
+}
