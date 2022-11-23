@@ -238,6 +238,11 @@ a {
     text-align: center;
 }
 
+.html-container{
+  max-width: 300px;
+  max-height: 500px;
+}
+
 /* Cinquè exercici */
 .hipervincle {
   background-color: var(--beige);
