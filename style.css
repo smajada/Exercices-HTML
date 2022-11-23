@@ -351,3 +351,21 @@ img {
   text-align: center;
   text-rendering: geometricprecision;
 }
+
+/* Pàgina CV */
+header {
+  background-color: var(--marron);
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header h1 {
+  font-size: 70px;
+}
+header h2 {
+  font-size: 50px;
+  color: var(--marron-flojo);
+}
