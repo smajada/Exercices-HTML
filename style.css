@@ -126,7 +126,7 @@ a {
 
 /* Primer exercici */
 
-.paragrafs {
+#exercici1 {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -174,7 +174,7 @@ a {
 
 /* Segon exercici */
 
-.paraules {
+#exercici2 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -200,7 +200,7 @@ a {
 }
 
 /* Tercer exercici */
-.llista {
+#exercici3 {
   background-color: var(--verde);
   height: 100vh;
   position: relative;
@@ -222,7 +222,7 @@ a {
 }
 
 /* Quart exercici */
-.HTML {
+#exercici4 {
   background-color: var(--verde-flojo);
   height: 100vh;
   position: relative;
@@ -244,7 +244,7 @@ a {
 }
 
 /* Cinquè exercici */
-.hipervincle {
+#exercici5 {
   background-color: var(--beige);
   height: 100vh;
   position: relative;
@@ -255,7 +255,7 @@ a {
   align-items: center;
 }
 
-.hipervincle button {
+#exercici5 button {
   background: #080808;
   border-radius: 6px;
   border: 1px solid #080808;
@@ -279,7 +279,7 @@ a {
 
 /* sisè exercici */
 
-.html {
+#exercici6 {
   background-color: var(--marron);
   height: 100vh;
   position: relative;
