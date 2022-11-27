@@ -1,0 +1,110 @@
+/* Pàgina CV */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Elements generals */
+:root {
+  --marron: #d4a373;
+  --verde: #ccd5ae;
+  --verde-flojo: #e9edc9;
+  --marron-flojo: #faedcd;
+  --beige: #fefae0;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: #080808;
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 1);
+}
+h2 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+p,
+li {
+  color: #080808;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  background-color: var(--marron);
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header h1 {
+  font-size: 70px;
+}
+header h2 {
+  font-size: 50px;
+  color: var(--marron-flojo);
+}
+
+aside {
+  background-color: var(--verde);
+  width: 20%;
+  height: 100vh;
+  padding:0 15px 0 15px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+section {
+  background-color: var(--beige);
+}
+.career {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.career h2 {
+  padding: 10px;
+}
+
+.career p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--marron-flojo);
+}
+
+.education h2 {
+  padding: 10px;
+}
+.education ul {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--verde-flojo);
+  padding: 20px;
+}
+
+.experience article {
+  padding: 10px;
+}
